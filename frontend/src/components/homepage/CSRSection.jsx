@@ -18,7 +18,7 @@ const CSRContent = () => {
       <div className="box-border caret-transparent mt-6 md:mt-8">
         <a
           title="Exness | Corporate Social Responsibility & Community Impact"
-          href="/social-responsibility/"
+          href="/"
           className="relative font-semibold items-center backdrop-blur-[10px] bg-slate-500/10 box-border caret-transparent inline-flex justify-center tracking-[0.3px] min-h-12 min-w-[100px] align-middle border px-6 py-[7px] rounded-bl rounded-br rounded-tl rounded-tr border-solid border-transparent hover:bg-slate-500/10 hover:border-slate-400"
         >
           Learn more about CSR
