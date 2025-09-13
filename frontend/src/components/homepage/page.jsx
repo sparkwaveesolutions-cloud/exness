@@ -1,11 +1,11 @@
-import HeroSection from "./HeroSection";
-import IntroSection from "./IntroSection";
-import StatsSection from "./StatsSection";
-import TechSection from "./TechSection";
-import RiskSection from "./RiskSection";
-import PartnershipsSection from "./PartnershipsSection";
-import CSRSection from "./CSRSection";
-import CareersSection from "./CareerSection"; 
+import HeroSection from "./HeroSection.jsx";
+import IntroSection from "./IntroSection.jsx";
+import StatsSection from "./StatsSection.jsx";
+import TechSection from "./TechSection.jsx";
+import RiskSection from "./RiskSection.jsx";
+import PartnershipsSection from "./PartnershipsSection.jsx";
+import CSRSection from "./CSRSection.jsx";
+import CareersSection from "./CareerSection.jsx"; 
 
 const HomePage = () => {
   return (

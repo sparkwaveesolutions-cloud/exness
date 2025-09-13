@@ -1,5 +1,5 @@
-import  {Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import  {Header } from "@/components/Header.jsx";
+import { Footer } from "@/components/Footer.jsx";
 import HomePage from "@/components/homepage/page";
 // import Main from "@/components/Main";
 
