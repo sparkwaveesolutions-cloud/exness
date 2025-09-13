@@ -4,13 +4,13 @@ export const FooterBottom = () => {
       <div className="[align-items:normal] box-border caret-transparent flex flex-col flex-wrap justify-normal md:items-center md:flex-row md:justify-between">
         <div className="[align-items:normal] box-border caret-transparent gap-x-4 flex flex-col gap-y-2 md:items-center md:gap-x-6 md:flex-row">
           <a
-            href="/cdn/media/docs/exness-privacy-notice.pdf"
+            href="/"
             className="text-xs box-border caret-transparent block leading-[18px] underline decoration-[0.5px] md:text-sm md:leading-5 hover:decoration-1"
           >
             Privacy notice
           </a>
           <a
-            href="/cdn/media/docs/exness-cookie-policy.pdf"
+            href="/"
             className="text-xs box-border caret-transparent block leading-[18px] underline decoration-[0.5px] md:text-sm md:leading-5 hover:decoration-1"
           >
             Cookie policy
@@ -38,42 +38,35 @@ export const FooterLogo = () => {
   );
 };
 
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+
 export const SocialLinks = () => {
+  const iconClasses = "h-10 w-10 text-gray-900/60 hover:text-sky-600";
+
   return (
-    <div className="box-border caret-transparent gap-x-3 flex flex-wrap leading-[0px] gap-y-3">
+    <div className="flex flex-wrap gap-3">
       <a
-        href="https://www.facebook.com/exness/"
-        className="box-border caret-transparent block rounded-[50%] hover:bg-slate-500/10 hover:underline"
+        href="/"
+        className="flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200"
       >
-        <img
-          alt="facebook.svg"
-          src="https://c.animaapp.com/mfhttwk3ObI8ZY/assets/facebook_5b62c93060.svg"
-          className="box-border caret-transparent h-10 w-10"
-        />
+        <FaFacebookF className={iconClasses} />
       </a>
       <a
-        href="https://x.com/exness"
-        className="box-border caret-transparent block rounded-[50%] hover:bg-slate-500/10 hover:underline"
+        href="/"
+        className="flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200"
       >
-        <img
-          alt="twitter.svg"
-          src="https://c.animaapp.com/mfhttwk3ObI8ZY/assets/twitter_bf74fdb369.svg"
-          className="box-border caret-transparent h-10 w-10"
-        />
+        <FaTwitter className={iconClasses} />
       </a>
       <a
-        href="https://www.linkedin.com/company/exness/"
-        className="box-border caret-transparent block rounded-[50%] hover:bg-slate-500/10 hover:underline"
+        href="/"
+        className="flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200"
       >
-        <img
-          alt="linkedin.svg"
-          src="https://c.animaapp.com/mfhttwk3ObI8ZY/assets/linkedin_9459116e29.svg"
-          className="box-border caret-transparent h-10 w-10"
-        />
+        <FaLinkedinIn className={iconClasses} />
       </a>
     </div>
   );
 };
+
 
 export const FooterContent = () => {
   return (
