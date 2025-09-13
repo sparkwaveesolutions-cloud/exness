@@ -1,6 +1,6 @@
-import  {Header } from "@/components/Header.jsx";
-import { Footer } from "@/components/Footer.jsx";
-import HomePage from "@/components/homepage/page";
+import  {Header } from "../components/header.jsx";
+import { Footer } from "../components/footer.jsx";
+import HomePage from "../components/homepage/page.jsx";
 // import Main from "@/components/Main";
 
 export default function Home() {
